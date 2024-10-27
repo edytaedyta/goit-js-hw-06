@@ -18,7 +18,6 @@ class Storage {
   }
 }
 
-// Testowanie instancji i metod klasy Storage
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 storage.addItem("Droid");
